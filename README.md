@@ -352,3 +352,53 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 AI / LLM Engineer
 Python | FastAPI | RAG | LLMs | LangChain | Vector Databases
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  GOOGLE API        @@@@@@@@@@@@@@@@
+## Google Gemini API
+
+This project uses the Google Gemini API for:
+
+* Text embeddings
+* Vector-based semantic search
+* LLM-based question answering
+
+### Embedding Model
+
+The project uses:
+
+```text
+gemini-embedding-2
+```
+
+The embedding model converts text chunks into numerical vectors for semantic search.
+
+Current embedding dimension:
+
+```text
+3072
+```
+
+### API Key Configuration
+
+Create a `.env` file in the project root:
+
+```env
+GOOGLE_API_KEY=your_google_api_key
+```
+
+For local development, load the API key using `python-dotenv`.
+
+**Important:** Never commit the `.env` file or expose the API key in GitHub.
+
+The `.gitignore` file includes:
+
+```text
+.env
+**/.env
+```
+
+### Security
+
+* Never hard-code API keys in Python files.
+* Never add API keys to `README.md`.
+* Never commit `.env` to GitHub.
+* If an API key is accidentally exposed, revoke it and create a new key.
