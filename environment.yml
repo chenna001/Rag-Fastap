@@ -1,0 +1,20 @@
+name: rag-fastapi
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn
+      - pypdf
+      - python-multipart
+      - python-dotenv
+      - openai
+      - langchain
+      - langchain-openai
+      - faiss-cpu
+      
