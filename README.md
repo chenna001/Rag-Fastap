@@ -404,3 +404,5 @@ The `.gitignore` file includes:
 * If an API key is accidentally exposed, revoke it and create a new key.
 Author
 Chennakesava Reddy
+
+AI / LLM Engineer Python | FastAPI | RAG | LLMs | LangChain | Vector Databases
