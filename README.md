@@ -402,7 +402,9 @@ The `.gitignore` file includes:
 * Never add API keys to `README.md`.
 * Never commit `.env` to GitHub.
 * If an API key is accidentally exposed, revoke it and create a new key.
+
+* 
 Author
 Chennakesava Reddy
-
+www.linkedin.com/in/chennakeava-reddy-reddy-35a43ba5
 AI / LLM Engineer Python | FastAPI | RAG | LLMs | LangChain | Vector Databases
